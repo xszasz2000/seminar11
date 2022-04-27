@@ -2,6 +2,7 @@
 # taken from https://hackernoon.com/10-common-security-gotchas-in-python-and-how-to-avoid-them-e19fbe265e03
 import subprocess
 import base64
+import cPickle
 import flask
 
 # Input injection
